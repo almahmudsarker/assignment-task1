@@ -88,3 +88,39 @@ header div input {
 }
 
 /* main section part 2 */
+
+.div-main-header {
+    position: absolute;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    top: 1750px;
+    left: 45%;
+}
+
+/* main section part 3 */
+
+section {
+    display: flex;
+    margin-top: 1200px;
+}
+
+section>.div-main-3 {
+    width: 300px;
+    align-items: center;
+}
+
+section>.div-main-3>img {
+    margin-top: 0;
+    padding-left: 180px;
+}
+
+section>.div-main-3>h2 {
+    padding-left: 130px;
+    font-size: 25px;
+}
+
+section>.div-main-3>p {
+    margin-left: 150px;
+    font-size: 20px;
+}
