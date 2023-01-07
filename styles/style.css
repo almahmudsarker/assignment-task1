@@ -13,7 +13,7 @@
 
 #heading-text {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 55%;
     text-align: right;
     padding-right: 65px;
@@ -26,22 +26,22 @@
     position: absolute;
     text-align: right;
     padding-right: 65px;
-    top: 70%;
+    top: 60%;
     left: 55%;
     font-size: 20px;
     color: #fff;
 }
 
-header div input {
+.btn-primary {
     position: absolute;
-    top: 90%;
+    top: 80%;
     right: 5%;
+    border: none;
+    border-radius: 5px;
     width: 160px;
     height: 50px;
-    border-radius: 5px;
-    border: none;
-    padding-right: 10px;
     font-size: 20px;
+    background-color: #fff;
     color: rgb(0, 102, 255);
 }
 
@@ -100,7 +100,7 @@ header div input {
 
 /* main section part 3 */
 
-section {
+.main-section {
     display: flex;
     margin-top: 1200px;
 }
@@ -124,3 +124,41 @@ section>.div-main-3>p {
     margin-left: 150px;
     font-size: 20px;
 }
+
+.blend-part {
+    padding-top: 100px;
+    padding-left: 80px;
+}
+
+.blend-img {
+    width: 1140px;
+    height: 300px;
+    background: url("gradient1.png"), url("watch.png");
+}
+
+div #text {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 175px;
+    top: 2300px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.btn-primary1 {
+    position: absolute;
+    top: 2415px;
+    left: 175px;
+    border: none;
+    border-radius: 5px;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #fff;
+    color: rgb(0, 102, 255);
+}
+
+/* footer section start */
