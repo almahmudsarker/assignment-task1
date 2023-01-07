@@ -131,11 +131,13 @@ section>.div-main-3>p {
     padding-left: 80px;
 }
 
-.blend-img {
+/* I am facing problem with this in css file, so i add this in html file.  */
+/* .blend-img {
     width: 1140px;
     height: 300px;
-    background-image: url('images/gradient1.png'), url('images/watch.png');
-}
+    background-repeat: no-repeat, repeat;
+    background-image: url("images/gradient1.png"), url("images/watch.png");
+} */
 
 div #text {
     position: absolute;
