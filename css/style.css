@@ -6,8 +6,7 @@
 
 /* header section */
 
-.header {
-    background-image: url('images/banner/banner3.png');
+.header img {
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -170,7 +169,7 @@ div #text {
     display: flex;
     background: #151414;
     position: absolute;
-    width: 1600px;
+    width: 100%;
     height: 577px;
 
 }
@@ -219,7 +218,7 @@ div #text {
     border-style: solid;
     background: transparent;
     width: 325px;
-    height: 64px;
+    height: 60px;
     left: 900px;
     top: 180px;
 }
@@ -233,7 +232,7 @@ div #text {
 .btn-primary2 {
     position: absolute;
     top: 270px;
-    right: 535px;
+    right: 290px;
     border: none;
     border-radius: 5px;
     width: 160px;
